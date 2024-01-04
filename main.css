@@ -1,3 +1,6 @@
+body {
+    font-family: 'Columba Text Trial';
+}
 .about {
     display: grid;
     grid-template-columns: 6fr 1fr 1fr;
@@ -12,20 +15,51 @@
 
 .open {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 6fr;
+    grid-template-columns: 1fr 3fr 1fr 5fr 1fr;
+
+}
+
+.redgr{
+    background-image: url( 'assets/openbgr.svg' );
 }
 
 .opencover {
     width: 350px;
     margin-top: 60px;
     grid-column-start: 2;
+
+
 }
 
 
-.openfb{
-    width: 620px;
+
+.openspread {
+    height: 415px;
+
+}
+.prev {
+    grid-column-start: 3;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.next {
+    grid-column-start: 5;
+    align-self: center;
+    margin-right: 150px;
+    margin-top: 100px;
+
+}
+
+.slidescontainer {
     grid-column-start: 4;
+
+}
+
+.openslides{
+    display: none;
     margin-top:150px;
+    margin-bottom: 20px;
 }
 
 .calendarcover {
@@ -33,45 +67,14 @@
 
 }
 
-/*body {
-    margin: 0 0 0 0;
-    font-family: 'Times' ;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+
+.opentitle {
+    grid-column-start: 2;
+    margin-left: 100px;
+    margin-right: 70px;
 }
 
-.designer {
-
+.openbody {
+    grid-column-start: 4;
+    margin-right: 200px;
 }
-
-h1 {
-    margin: 1vh 0 0 0;
-}
-.about {
-    margin-top: 0;
-    margin-left: 1vw;
-    height: 100vh;
-    border-right: solid black;
-    display: grid;
-    grid-template-rows: 1fr 1fr 10fr;
-    font-family: "columba text trial", sans-serif;
-    font-weight: 400;
-    /*font-weight: 700;
-    font-style: normal;
-}
-
-.resume {
-    margin-bottom: 1vh;
-    align-self: flex-end;
-
-}
-
-.projects {
-    margin-left: 1vh;
-    margin-top: 1vh;
-}
-
-.content {
-
-}
-*/
