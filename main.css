@@ -101,3 +101,17 @@ body {
     margin-top: 50px;
     
 }
+
+.openvidcap {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.openviddes {
+    grid-row-start:4;
+    grid-column-start:4;
+    margin-top: 20px;
+    margin-right: 200px;
+}
