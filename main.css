@@ -22,6 +22,7 @@ body {
 
 .redgr{
     background-image: url( 'assets/openbgr.svg' );
+    width: 100vw;
 }
 
 .opencover {
@@ -83,21 +84,43 @@ body {
     grid-row-start: 3;
     background-color: #FFF855;
     margin-right: 20px;
+    
+    /* display: grid;
+    grid-template-columns: 1fr 20px 1fr; */
     /* margin-top: 60px; */
 }
 
 .homepagevid {
     width: 850px;
-    margin-left: 20vw;
     margin-top: -5px;
-    
+    grid-row-start: 1;
+    grid-column-start: 1;  
+    grid-column-end: 2;
+    /* margin-left: 230px; */
+    margin-left: 20vw;
+
+
 }
 
 .dash {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
     width: 850px;
     margin-left: 20vw;
     margin-top: 50px;
     
+}
+
+/* .open2{
+    width: 600px;
+    grid-column-start: 3;
+    margin-left: 500px;
+} */
+
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .openvidcap {
@@ -125,7 +148,7 @@ body {
 }
 
 .solargif {
-    width: 700px;
+    width: 730px;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -200,6 +223,7 @@ body {
 .calcover {
     grid-column-start: 3;
     grid-row-start: 2;
+    margin-top: -10px;
 }
 
 .cal3 {
@@ -222,4 +246,18 @@ body {
 
 .last {
     grid-column-start: 11;
+}
+
+.caltitle {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    margin-top: 20px;
+}
+
+.caldes {
+    grid-row-start: 3;
+    grid-column-start: 7;
+    grid-column-end: 11;
+    margin-top: 20px;
+
 }
