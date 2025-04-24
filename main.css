@@ -1,8 +1,9 @@
-body {
+/*body {
     font-family: 'Columba Text Trial';
+    display: flex;
 }
 .about {
-    display: grid;
+    display: flex;
     grid-template-columns: 6fr 1fr 1fr;
     margin-top: 20px;
     margin-left: 20px;
@@ -19,6 +20,8 @@ body {
     grid-template-rows: 5fr 1fr 10fr 1fr ;
 
 }
+
+
 
 .redgr{
     background-image: url( 'assets/openbgr.svg' );
@@ -90,7 +93,7 @@ body {
     
     /* display: grid;
     grid-template-columns: 1fr 20px 1fr; */
-    /* margin-top: 60px; */
+    /* margin-top: 60px; 
 }
 
 .homepagevid {
@@ -99,7 +102,7 @@ body {
     grid-row-start: 1;
     grid-column-start: 1;  
     grid-column-end: 2;
-    /* margin-left: 230px; */
+    /* margin-left: 230px; 
     margin-left: 20vw;
     margin-bottom: 10px;
 }
@@ -123,7 +126,7 @@ body {
     width: 600px;
     grid-column-start: 3;
     margin-left: 500px;
-} */
+} 
 
 .scroll {
     overflow-x: auto;
@@ -151,7 +154,7 @@ body {
     margin-top: 60px;
 
     /* grid-template-columns: repeat(13, 1fr 20px) */
-/* 2fr 1fr 8fr 7fr 20px 6fr 5fr 2fr; */
+/* 2fr 1fr 8fr 7fr 20px 6fr 5fr 2fr; 
 }
 
 .solargif {
@@ -162,7 +165,7 @@ body {
     grid-row-end: 3;
     /* grid-column-start: 2;
     grid-column-end: 16;
-    grid-row-start: 1; */
+    grid-row-start: 1; 
 
 }
 .solartick {
@@ -172,7 +175,7 @@ body {
     /* grid-column-start: 17;
     grid-column-end: 25;
     grid-row-start: 1;
-    margin-left: 2vw; */
+    margin-left: 2vw; 
 
 }
 .srposter {
@@ -186,7 +189,7 @@ body {
     grid-column-end: 25;
     grid-row-start: 2;
     margin-top: -200px;
-    margin-left: 2vw; */
+    margin-left: 2vw; 
 }
 
 
@@ -198,7 +201,7 @@ body {
     /* grid-column-start: 5;
     grid-column-end: 10;
     grid-row-start:3 ;
-    margin-top: 20px; */
+    margin-top: 20px; 
 
 }
 
@@ -212,7 +215,7 @@ body {
     /* grid-column-start: 12;
     grid-column-end: 19;
     grid-row-start:3 ;
-    margin-top: 20px; */
+    margin-top: 20px; 
 
 }
 
@@ -285,7 +288,7 @@ body {
 .dash2 {
     grid-row-start: 1;
     grid-column-start: 1;
-    /* grid-column-end: 2; */
+    /* grid-column-end: 2; 
     width: 850px;
     margin-left: 1vw;
     margin-top: 10px;
@@ -296,7 +299,7 @@ body {
 .filmvid {
     grid-row-start: 1;
     grid-column-start: 2;
-    /* grid-column-end: 2; */
+    /* grid-column-end: 2; 
     width: 850px;
     margin-top: -5px;
     margin-left: 1vw;
@@ -316,3 +319,72 @@ body {
     margin-top: 20px;
     margin-right: 150px;
 }
+
+*/
+
+body {
+    font-family: 'Columba Text Trial';
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1vw;
+}
+
+.seal {
+    width: 3vw;
+}
+
+.laura {
+    width: 80vw;
+    margin-left: -2vw;
+}
+
+.contact {
+    margin-right: 2vw;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.column-1 {
+    width: 50vw;
+    padding: 2vw 1vw 2vw 2vw;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.column-2 {
+    width: 50vw;
+    padding: 2vw 2vw 2vw 1vw;
+    flex-direction: column;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.open {
+    width: 25vw;
+}
+
+.home {
+    width: 27.8vw;
+}
+
+.row-2 {
+    align-items: flex-end;
+}
+
